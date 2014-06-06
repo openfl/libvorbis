@@ -1,32 +1,32 @@
 <xml>
 	
-	<files id="libvorbis" >
+	<files id="native-vorbis" >
 		
-		<compilerflag value="-I${LIB_PREFIX}/vorbis/include/"/>
-		<compilerflag value="-I${LIB_PREFIX}/ogg/include/"/>
+		<compilerflag value="-I${NATIVE_LIB_PATH}/vorbis/include/"/>
+		<compilerflag value="-I${NATIVE_LIB_PATH}/ogg/include/"/>
 		
-		<file name="${LIB_PREFIX}/vorbis/src/mdct.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/smallft.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/block.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/envelope.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/window.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/lsp.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/lpc.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/analysis.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/synthesis.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/psy.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/info.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/floor1.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/floor0.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/res0.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/mapping0.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/registry.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/codebook.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/sharedbook.c"/>
-		<!--<file name="${LIB_PREFIX}/vorbis/src/lookup.c"/>-->
-		<file name="${LIB_PREFIX}/vorbis/src/bitrate.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/vorbisfile.c"/>
-		<file name="${LIB_PREFIX}/vorbis/src/vorbisenc.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/mdct.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/smallft.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/block.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/envelope.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/window.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/lsp.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/lpc.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/analysis.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/synthesis.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/psy.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/info.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/floor1.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/floor0.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/res0.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/mapping0.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/registry.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/codebook.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/sharedbook.c"/>
+		<!--<file name="${NATIVE_LIB_PATH}/vorbis/lib/lookup.c"/>-->
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/bitrate.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/vorbisfile.c"/>
+		<file name="${NATIVE_LIB_PATH}/vorbis/lib/vorbisenc.c"/>
 		
 	</files>
 	
